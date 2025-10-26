@@ -11,6 +11,8 @@ public class Tienda {
     private List<Videojuego> videojuegos = new ArrayList<>();
     private List<Periferico> perifericos = new ArrayList<>();
 
+    // Mapeado de los atributos y elementos XML
+
     @XmlElement(name = "NombreTienda")
     public String getNombreTienda() { return nombreTienda; }
     public void setNombreTienda(String nombreTienda) { this.nombreTienda = nombreTienda; }
